@@ -55,8 +55,8 @@ a {text-decoration: none;}
 }
 .btn.btn--gold:hover {
   color: #fff;
-  background-color: #d9aa8a;
   border-color: #d9aa8a;
+  background-color: #d9aa8a;
 }
 .btn.btn--white {
   color: #fff;
@@ -80,8 +80,6 @@ a {text-decoration: none;}
   opacity: 1;
   transform: translateX(0);
 }
-/*각 구역의 .8이 넘어가면 자바스크립트로 설정한 show 클래스가 생성되고
-  그로인해 요소가 돌아오면서 나타나는 애니메이션 효과이다*/
 .show .back-to-position.delay-0 {
   transition-delay: 0s;
 }
@@ -274,12 +272,12 @@ header .badges .badge {
   height: 646px;
 }
 .visual .tittle{  
-  position: absolute; /*inner 부분에 이미 relative가 있다*/
+  position: absolute; 
   top: 88px;
   left: -10px;
 }
 .visual .tittle .btn{
-  position: absolute; /* 부모를 tittle의 absolute를 따라간다 즉 tittle이 움직이면 같이 움직인다*/
+  position: absolute; 
   top: 259px;
   left: 173px;
 }
@@ -408,7 +406,6 @@ header .badges .badge {
   height: 0;
 }
 .notice .promotion .swiper-container {
-  /* 819px 슬라이드 3개와 그 사이 여백 10px씩 = 2477px */
   width: calc(819px * 3 + 20px);
   height: 553px;
   position: absolute;
@@ -460,8 +457,6 @@ header .badges .badge {
   border: 2px solid #333;
   border-radius: 50%;
   position: absolute;
-  /* Swiper Container 높이의 절반만큼 끌어올림 */
-  /* 버튼 높이의 절반만큼 추가로 끌어올림 */
   top: 300px;
   z-index: 1;
   cursor: pointer;
