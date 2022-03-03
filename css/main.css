@@ -55,6 +55,7 @@ a {text-decoration: none;}
 }
 .btn.btn--gold:hover {
   color: #fff;
+  background-color: #d9aa8a;
   border-color: #d9aa8a;
 }
 .btn.btn--white {
